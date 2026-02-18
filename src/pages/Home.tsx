@@ -40,7 +40,7 @@ const Home = () => {
                     <Countdown />
 
                     <div className="cta-container" data-aos="fade-up" data-aos-delay="800">
-                        <MagicalButton href="https://www.veltechmultitech.org/">
+                        <MagicalButton href="/Events.tsx">
                             Enter the Academy
                         </MagicalButton>
                     </div>
