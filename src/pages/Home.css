@@ -1,0 +1,99 @@
+
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+                
+.home-container {
+    min-height: calc(100vh - 80px); /* Adjust for navbar height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+}
+
+.college-name {
+    font-family: var(--font-harry);
+    font-size: 1.5rem;
+    color: var(--color-parchment-dim);
+    margin-bottom: 0.5rem;
+    letter-spacing: 3px;
+}
+
+.dept-name {
+    font-family: var(--font-lora);
+    font-size: 1.2rem;
+    color: var(--color-gold);
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.event-title {
+    font-family: var(--font-harry);
+    font-size: 5rem;
+    margin: 1rem 0;
+    line-height: 1.1;
+    filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.4));
+}
+
+.subtitle {
+    font-family: var(--font-playfair);
+    font-size: 1.8rem;
+    color: var(--color-parchment);
+    margin-bottom: 2rem;
+}
+
+.event-meta {
+    font-family: var(--font-cinzel);
+    font-size: 1.5rem;
+    color: var(--color-gold);
+    margin-bottom: 2rem;
+    border-top: 1px solid var(--color-gold);
+    border-bottom: 1px solid var(--color-gold);
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    background: rgba(11, 26, 46, 0.5);
+}
+
+.cta-container {
+    margin-top: 3rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .event-title {
+        font-size: 3rem;
+    }
+
+    .college-name {
+        font-size: 1.2rem;
+    }
+
+    .subtitle {
+        font-size: 1.4rem;
+    }
+    
+    .event-meta {
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .event-title {
+        font-size: 2.2rem;
+    }
+    
+    .home-container {
+        padding: 1rem;
+        min-height: calc(100vh - 60px); 
+    }
+}

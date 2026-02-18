@@ -1,0 +1,83 @@
+.event-card {
+    background: rgba(11, 26, 46, 0.7);
+    border: 1px solid var(--color-gold);
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.event-type-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.7rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.event-type-badge.technical {
+    background: rgba(92, 26, 27, 0.8);
+    color: #fff;
+    border: 1px solid var(--color-burgundy);
+}
+
+.event-type-badge.non-technical {
+    background: rgba(44, 26, 15, 0.8);
+    color: var(--color-gold);
+    border: 1px solid var(--color-brown);
+}
+
+.event-icon-container {
+    font-size: 3rem;
+    color: var(--color-gold);
+    margin-bottom: 1rem;
+    filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.5));
+}
+
+.event-title {
+    font-family: var(--font-cinzel-deco);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-parchment);
+}
+
+.event-description {
+    font-family: var(--font-lora);
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.event-register-btn {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border: 1px solid var(--color-gold);
+    color: var(--color-gold);
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-family: var(--font-cinzel);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.event-register-btn:hover {
+    background: var(--color-gold);
+    color: var(--color-midnight);
+    box-shadow: 0 0 15px var(--color-gold);
+}
