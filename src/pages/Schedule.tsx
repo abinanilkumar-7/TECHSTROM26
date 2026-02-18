@@ -4,12 +4,13 @@ import './Schedule.css';
 
 const Schedule = () => {
    const scheduleItems = [
-  { time: "08:00 - 09:00", event: "Arrival and Registration", location: "M/K 203 Alexander Graham Bell Hall" },
-  { time: "09:00 - 10:15", event: "Inauguration Ceremony", location: "M/K 203 Alexander Graham Bell Hall" },
-  { time: "10:15 - 10:30", event: "Refreshments", location: "M/K 203 Alexander Graham Bell Hall" },
-  { time: "10:30 - 12:30", event: "Technical Events Start", location: "M/I 201 Engineering Practices Laboratory" },
-  { time: "12:30 - 13:30", event: "Lunch Break", location: "Food Court" },
-  { time: "13:30 - 15:00", event: "Non-Technical Event Starts", location: "M/J 204 Optical Laboratory" }
+     { time: "08:00 - 09:00", event: "Arrival and Registration", location: "M/K 203 Alexander Graham Bell Hall" },
+     { time: "09:00 - 10:15", event: "Inauguration Ceremony", location: "M/K 203 Alexander Graham Bell Hall" },
+     { time: "10:15 - 10:30", event: "Refreshments", location: "M/K 203 Alexander Graham Bell Hall" },
+     { time: "10:30 - 12:30", event: "Technical Events Start", location: "M/I 201 Engineering Practices Laboratory" },
+     { time: "12:30 - 13:30", event: "Lunch Break", location: "Food Court" },
+     { time: "13:30 - 15:00", event: "Non-Technical Event Starts", location: "M/J 204 Optical Laboratory" },
+      { time: "15.00 - 15.30", event: "Valedictory Function", location: "M/K 203 Alexander Graham Bell Hall" }
 ];
 
 
